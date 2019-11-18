@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Jul  5 03:25:32 2019
-
-@author: Tiffany
+@author: Jeanphilippe99
 """
 
 # -*- coding: utf-8 -*-

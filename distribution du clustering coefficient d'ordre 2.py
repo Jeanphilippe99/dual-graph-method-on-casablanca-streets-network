@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Jul  5 00:13:08 2019
 
-@author: Tiffany
+@author: Jeanphilippe99
 """
 import gdal
 import networkx as nx

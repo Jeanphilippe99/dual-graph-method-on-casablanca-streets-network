@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Jul  7 19:41:39 2019
 
-@author: Tiffany
+
+@author: Jeanphilippe99
 """
 
 import gdal
