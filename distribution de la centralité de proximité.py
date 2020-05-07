@@ -10,17 +10,17 @@ import networkx as nx
 from pylab import *
 import numpy as np
 
-G1=nx.Graph()
-G1=nx.read_shp('C://Users//Tiffany//Desktop//CodeProgrammation//meshp//dual_graph2.shp')
+G1 = nx.Graph()
+G1 = nx.read_shp('C://Users//Tiffany//Desktop//CodeProgrammation//meshp//dual_graph2.shp')
 
 #//////////////////////////////////////////////////// obtention du bon graphe nettoyé et connexe
 
 
-k=0
+k = 0
 for i in list(G1.nodes()): 
-   if G1.degree(i)==1 :         #selection des noeuds i de degree 1
+   if G1.degree(i) == 1 :         #selection des noeuds i de degree 1
       for j in list(G1.neighbors(i)): #liste des voisins de i, qui doit contenir normalement 1 element car le degree est egal a 1 
-         if G1.degree(j)==1:     #si le degree du voisin j est aussi egale a 1
+         if G1.degree(j) == 1:     #si le degree du voisin j est aussi egale a 1
               G1.remove_node(j)    # on supprime i et j
               G1.remove_node(i)
               k+=1
